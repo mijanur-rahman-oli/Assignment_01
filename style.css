@@ -176,7 +176,6 @@ h1 {
 
 .contact-section h1 {
     font-size: 48px;
-    line-height: 1.2;
     font-family: 'Raleway', sans-serif;
     margin: 0;
     width: 300px; 
@@ -251,3 +250,10 @@ h1 {
 }
 
 
+/* Hover */
+.btn-primary:hover {
+  background-color: #ea18e6;
+  color: yellow;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
