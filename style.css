@@ -121,3 +121,42 @@ h1 {
     border-radius: 15px;
 }
 
+/* Review */
+.testimonial-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 20px;
+    margin: 40px 155px;
+
+}
+
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.align {
+    text-align: center;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.reviewer-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* makes it round like a sticker */
+    object-fit: cover;
+}
+
+.review-date {
+    font-size: 0.9rem;
+    color: #888;
+}
