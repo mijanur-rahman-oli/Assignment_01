@@ -179,18 +179,18 @@ h1 {
     line-height: 1.2;
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    width: 300px; /* fixed width */
+    width: 300px; 
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 400px; /* fixed width */
+    width: 400px;
 }
 
 .input{
-    width: 100%;
+    width: 497px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -198,11 +198,56 @@ h1 {
     font-size: 16px;
 }
 
+.input,
 .textarea {
-    width: 100%;
+    width: 497px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    resize: none; 
 }
+
+
+/* Footer */
+.footer-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 600;
+}
+
+.logo2 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #4E47FF;
+
+}
+
+.para-align {
+    color: #8987A1;
+    text-align: center
+}
+
+.para-design {
+    color: #8987A1;
+}
+
+.footer-edit{
+    background-size: 1440px 428px;
+    background-color: #FFFFFF;
+    margin: 100px 0px ;
+    padding: 15px;
+    color: #0000001A;
+}
+
+
